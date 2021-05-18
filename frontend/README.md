@@ -10,9 +10,6 @@
 SPA приложение на React с регистрацией и авторизацией. Аналог Инстаграма.</br>
 Ссылка на gh-pages: https://rizametovd.github.io/react-mesto-auth/ .
 
-## Превью
-![Превью проекта](./public/preview.gif)
-
 ## Задача
 * Написать регистрацию и авторизацию в проект [Mesto](https://github.com/rizametovd/mesto-react) на React
 
@@ -36,3 +33,6 @@ npm install
 npm run start
 ```
 Если все прошло успешно, проект будет запущен на `http://localhost:3000`
+
+## Превью
+![Превью проекта](./public/preview.gif)
