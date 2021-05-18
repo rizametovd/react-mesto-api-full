@@ -1,0 +1,9 @@
+.hamburger-menu_opened {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger-menu_opened {
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+.header__auth-sign-out-button {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header__auth-sign-out-button {
+        background-color: transparent;
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #a9a9a9;
+        text-decoration: none;
+        align-self: flex-end;
+        border: 0;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,16 @@
+.header__auth-email {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header__auth-email {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+        margin: 0 0 0 auto;
+        padding-right: 24px;
+        align-self: flex-end;
+    }
+}

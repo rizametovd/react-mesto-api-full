@@ -1,0 +1,22 @@
+.header__hamburger-button {
+    width: 24px;
+    height: 18px;
+    background-image: url('../../../images/hamburger-button.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.header__hamburger-button:target {
+    background-image: url('../../../images/edit-icon.svg');
+}
+
+
+@media screen and (min-width: 768px) {
+    .header__hamburger-button {
+        display: none;
+    }
+}

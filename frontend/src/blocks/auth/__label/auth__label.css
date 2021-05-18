@@ -1,0 +1,14 @@
+.auth__label {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.auth__label:last-of-type {
+    margin-bottom: 173px;
+}
+
+@media screen and (min-width: 768px) {
+    .auth__label:last-of-type {
+        margin-bottom: 216px;
+    }
+}
