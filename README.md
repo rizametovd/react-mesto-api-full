@@ -10,8 +10,8 @@
 ![Webpack](https://img.shields.io/badge/-Webpack-99d6f8?logo=webpack&logoColor=black)
 
 ## Описание
-Сайт доступен по адресу: https://mesto-react.nomoredomains.icu/ </br>
-Подробное описание по установке на локальную машину [фронтенд-части](https://github.com/rizametovd/react-mesto-api-full/tree/main/frontend) приложения или [бэкенда](https://github.com/rizametovd/react-mesto-api-full/tree/main/backend) находятся в файлах README в соответствующих папках.
+Деплой: [Mesto](https://mesto.rizametov.com/) </br>
+Подробное описание по установке на локальную машину [фронтенд-части](https://github.com/rizametovd/react-mesto-api-full/tree/master/frontend) приложения или [бэкенда](https://github.com/rizametovd/react-mesto-api-full/tree/master/backend) находятся в файлах README в соответствующих папках.
 
 ## Задача
 * Настроить удаленный сервер на nginx. Задеплоить фронтенд и бэкенд. Выпустить и подключить SSL-сертификат

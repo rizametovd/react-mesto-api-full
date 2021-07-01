@@ -8,10 +8,7 @@
 
 ## Описание
 SPA приложение на React с регистрацией и авторизацией. Аналог Инстаграма.</br>
-Ссылка на gh-pages: https://rizametovd.github.io/react-mesto-auth/ .
-
-## Задача
-* Написать регистрацию и авторизацию в проект [Mesto](https://github.com/rizametovd/mesto-react) на React
+Деплой: [Mesto](https://mesto.rizametov.com/)
 
 ## Стек
 * React
