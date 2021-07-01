@@ -17,7 +17,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const { errorHandler } = require('./middlewares/errorHandler');
 
 app.use(cors({
-  origin: 'https://mesto.rizametov.com',
+  origin: 'https://mesto.rizametov.com/',
   credentials: true,
 }));
 

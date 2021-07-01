@@ -12,7 +12,7 @@ class Api {
     }
 
     getUserInfo() {
-        return fetch(`${this._url}users/me`, {
+        return fetch(`${this._url}/users/me`, {
             method: 'GET',
             'credentials': 'include',
             headers: this._headers
@@ -21,7 +21,7 @@ class Api {
     }
 
     getInitialCards() {
-        return fetch(`${this._url}cards`, {
+        return fetch(`${this._url}/cards`, {
             method: 'GET',
             'credentials': 'include',
             headers: this._headers
@@ -30,7 +30,7 @@ class Api {
     }
 
     setUserInfo(formData) {
-        return fetch(`${this._url}users/me`, {
+        return fetch(`${this._url}/users/me`, {
             method: 'PATCH',
             'credentials': 'include',
             headers: this._headers,
@@ -43,7 +43,7 @@ class Api {
     }
 
     addCard(formData) {
-        return fetch(`${this._url}cards`, {
+        return fetch(`${this._url}/cards`, {
             method: 'POST',
             'credentials': 'include',
             headers: this._headers,
@@ -56,7 +56,7 @@ class Api {
     }
 
     removeCard(id) {
-        return fetch(`${this._url}cards/${id}`, {
+        return fetch(`${this._url}/cards/${id}`, {
             method: 'DELETE',
             'credentials': 'include',
             headers: this._headers
@@ -65,7 +65,7 @@ class Api {
     }
 
     changeLikeCardStatus(cardId, isLiked) {
-        return fetch(`${this._url}cards/${cardId}/likes/`, {
+        return fetch(`${this._url}/cards/${cardId}/likes/`, {
             method: isLiked ? 'PUT' : 'DELETE',
             'credentials': 'include',
             headers: this._headers
@@ -74,7 +74,7 @@ class Api {
     }
 
     setUserAvatar(formData) {
-        return fetch(`${this._url}users/me/avatar`, {
+        return fetch(`${this._url}/users/me/avatar`, {
             method: 'PATCH',
             'credentials': 'include',
             headers: this._headers,
@@ -89,7 +89,7 @@ class Api {
 
 
 export const api = new Api({
-    baseUrl: 'https://api.mesto.rizametov.com/',
+    baseUrl: 'https://api.mesto.rizametov.com',
     headers: {
         'Content-Type': 'application/json'
     }
