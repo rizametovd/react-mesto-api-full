@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run build && scp -r ./build/* admin-ya@84.201.161.178:/home/admin-ya/react-mesto-api-full/frontend/build"
+    "deploy": "npm run build && scp -r ./build/* root@185.240.103.120:/home/react-mesto-api-full/frontend/build"
   },
   "eslintConfig": {
     "extends": [

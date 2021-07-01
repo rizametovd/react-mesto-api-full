@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 
-const { PORT = 3000 } = process.env;
+const { PORT = 3001 } = process.env;
 const app = express();
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -17,7 +17,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const { errorHandler } = require('./middlewares/errorHandler');
 
 app.use(cors({
-  origin: 'https://mesto-react.nomoredomains.icu',
+  origin: 'https://mesto.rizametov.com',
   credentials: true,
 }));
 
